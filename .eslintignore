@@ -1,0 +1,14 @@
+node_modules/
+dist/
+build/
+.cache/
+.vite/
+coverage/
+public/build/
+*.log
+*.tgz
+/.husky/
+/.git/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
