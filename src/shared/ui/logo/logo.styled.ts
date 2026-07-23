@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const LogoWrapper = styled(Link)`
+  gap: 13px;
   display: flex;
   cursor: pointer;
   align-items: center;
@@ -10,13 +11,21 @@ export const LogoWrapper = styled(Link)`
 `;
 
 export const LogoImage = styled.img`
-  width: 48px;
-  height: 48px;
+  width: 58px;
+  height: 58px;
 `;
 
-export const LogoText = styled.span`
-  margin-left: 12px;
+export const LogoWrapperText = styled.div``;
+
+export const LogoText = styled.p`
   font-weight: 700;
-  color: ${({ theme }) => theme.colors.primary};
-  font-size: 18px;
+  color: ${({ theme }) => theme.colors.text};
+  font-weight: ${({ theme }) => theme.typography.fontWeight.bold};
+  font-size: ${({ theme }) => theme.typography.fontSize.xxl};
+`;
+export const LogoTextSecondary = styled.p`
+  font-weight: 700;
+  color: ${({ theme }) => theme.colors.textSecondary};
+  font-size: ${({ theme }) => theme.typography.fontSize.xs};
+  font-weight: ${({ theme }) => theme.typography.fontWeight.semiBold};
 `;

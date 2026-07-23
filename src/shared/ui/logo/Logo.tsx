@@ -5,7 +5,12 @@ export const Logo = () => {
   return (
     <Styled.LogoWrapper to="/">
       <Styled.LogoImage src={logo} alt="Logo" />
-      <Styled.LogoText>Система мониторинга</Styled.LogoText>
+      <Styled.LogoWrapperText>
+        <Styled.LogoText>System Monitoring</Styled.LogoText>
+        <Styled.LogoTextSecondary>
+          MONITOR. ANALYZE. PROTECT.
+        </Styled.LogoTextSecondary>
+      </Styled.LogoWrapperText>
     </Styled.LogoWrapper>
   );
 };

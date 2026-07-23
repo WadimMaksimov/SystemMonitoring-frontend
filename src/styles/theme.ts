@@ -1,20 +1,38 @@
 export const theme = {
   colors: {
-    primary: '#6C63FF',
-    background: '#F7F8FC',
-    text: '#1F1F1F',
-    muted: '#6B7280',
-    accent: '#FF6B6B',
+    background: 'linear-gradient(90deg, #0A2A50 0%, #061426 55%, #020A13 100%)',
+    header: '#04101D',
+
+    text: '#FFFFFF',
+    textSecondary: '#8FA3BF',
   },
-  spacing: {
-    small: '8px',
-    medium: '16px',
-    large: '24px',
-  },
-  radii: {
-    sm: '6px',
-    md: '8px',
-    lg: '12px',
+
+  typography: {
+    fontFamily:
+      "'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial",
+
+    fontWeight: {
+      regular: 400,
+      medium: 500,
+      semiBold: 600,
+      bold: 700,
+    },
+
+    fontSize: {
+      xs: '12px',
+      sm: '14px',
+      md: '16px',
+      lg: '18px',
+      xl: '20px',
+      xxl: '28px',
+      hero: '40px',
+    },
+
+    lineHeight: {
+      sm: 1.3,
+      md: 1.5,
+      lg: 1.6,
+    },
   },
 };
 
